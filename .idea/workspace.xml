@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Improved README.md">
+    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Improved github actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -213,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675971904086</updated>
-      <workItem from="1675971905373" duration="4223000" />
+      <workItem from="1675971905373" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675974066274</created>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675975734179</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Improved github actions">
+      <created>1675976209074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675976209074</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +297,7 @@
     <MESSAGE value="Improved gradle-publish.yml" />
     <MESSAGE value="Added comments" />
     <MESSAGE value="Improved README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved README.md" />
+    <MESSAGE value="Improved github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved github actions" />
   </component>
 </project>
