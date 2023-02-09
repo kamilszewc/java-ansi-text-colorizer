@@ -1,7 +1,8 @@
 package io.github.kamilszewc;
 
-import java.io.PrintStream;
-
+/**
+ * Class used to define mechanism of coloring text in terminal/console using ANSI characters
+ */
 public class Colorizer {
 
     /**
@@ -101,6 +102,12 @@ public class Colorizer {
         public String toString() {
             return backgroundColor;
         }
+    }
+
+    /**
+     * Default constructor
+     */
+    private Colorizer() {
     }
 
     /**
