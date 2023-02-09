@@ -1,7 +1,8 @@
 # Java ANSI text colorizer
 
 ## Description
-
+Very simple Java library that modifies Strings in the way they are colored when printed to terminal.
+It uses ANSI codes to do the job.
 
 
 ## Installation
@@ -14,14 +15,14 @@ Usage with maven:
 <dependency>
     <groupId>io.github.kamilszewc</groupId>
     <artifactId>java-ansi-text-colorizer</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
 </dependency>
 ```
 
 Usage with gradle:
 
 ```groovy
-implementation 'io.github.kamilszewc:java-ansi-text-colorizer:0.1'
+implementation 'io.github.kamilszewc:java-ansi-text-colorizer:0.2'
 ```
 
 ## Usage
