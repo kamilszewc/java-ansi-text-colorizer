@@ -36,8 +36,12 @@ publishing {
             name = "OSSRH"
             url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
             credentials {
-                username = "$mavenCentralUser"
-                password = "$mavenCentralPassword"
+                if (mavenCentralUser != null) {
+                    username = "$mavenCentralUser"
+                }
+                if (mavenCentralPassword != null) {
+                    password = "$mavenCentralPassword"
+                }
             }
         }
     }
