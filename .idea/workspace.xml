@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gradle-publish.yml" afterDir="false" />
+    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Improved gradle-publish.yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle-publish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle-publish.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675971904086</updated>
-      <workItem from="1675971905373" duration="2423000" />
+      <workItem from="1675971905373" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675974066274</created>
@@ -223,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675974066274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added gradle-publish.yml">
+      <created>1675974338797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675974338797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improved gradle-publish.yml">
+      <created>1675974613945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675974613945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added gradle-publish.yml" />
+    <MESSAGE value="Improved gradle-publish.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved gradle-publish.yml" />
   </component>
 </project>
