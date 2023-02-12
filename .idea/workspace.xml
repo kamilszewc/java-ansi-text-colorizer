@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Changed version">
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Making Color and BackgroundColor enums public">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/kamilszewc/javaansitextcolorizer/Colorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/kamilszewc/javaansitextcolorizer/Colorizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/kamilszewc/ColorizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/kamilszewc/javaansitextcolorizer/ColorizerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +222,7 @@
       <updated>1675971904086</updated>
       <workItem from="1675971905373" duration="5089000" />
       <workItem from="1676058645743" duration="1027000" />
+      <workItem from="1676210538040" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675974066274</created>
@@ -310,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675976522638</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Making Color and BackgroundColor enums public">
+      <created>1676061484244</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676061484244</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +330,7 @@
     <MESSAGE value="Improved github actions" />
     <MESSAGE value="Improved backward compatibility" />
     <MESSAGE value="Changed version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed version" />
+    <MESSAGE value="Making Color and BackgroundColor enums public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making Color and BackgroundColor enums public" />
   </component>
 </project>

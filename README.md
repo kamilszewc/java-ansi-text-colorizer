@@ -15,14 +15,14 @@ Usage with maven:
 <dependency>
     <groupId>io.github.kamilszewc</groupId>
     <artifactId>java-ansi-text-colorizer</artifactId>
-    <version>0.2</version>
+    <version>0.6</version>
 </dependency>
 ```
 
 Usage with gradle:
 
 ```groovy
-implementation 'io.github.kamilszewc:java-ansi-text-colorizer:0.2'
+implementation 'io.github.kamilszewc:java-ansi-text-colorizer:0.6'
 ```
 
 ## Usage
