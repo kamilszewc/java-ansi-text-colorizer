@@ -13,16 +13,16 @@ Usage with maven:
 
 ```xml
 <dependency>
-    <groupId>io.github.kamilszewc</groupId>
+    <groupId>com.computinglaboratory</groupId>
     <artifactId>java-ansi-text-colorizer</artifactId>
-    <version>0.6</version>
+    <version>1.0</version>
 </dependency>
 ```
 
 Usage with gradle:
 
 ```groovy
-implementation 'io.github.kamilszewc:java-ansi-text-colorizer:0.6'
+implementation 'com.computinglaboratory:java-ansi-text-colorizer:0.6'
 ```
 
 ## Usage

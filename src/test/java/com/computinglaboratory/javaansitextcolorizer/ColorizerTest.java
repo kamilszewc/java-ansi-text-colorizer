@@ -1,4 +1,4 @@
-package io.github.kamilszewc.javaansitextcolorizer;
+package com.computinglaboratory.javaansitextcolorizer;
 
 import org.junit.jupiter.api.Test;
 

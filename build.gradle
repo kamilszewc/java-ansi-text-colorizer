@@ -5,8 +5,8 @@ plugins {
     id 'org.sonatype.gradle.plugins.scan' version '2.5.5'
 }
 
-group 'io.github.kamilszewc'
-version '0.6'
+group 'com.computinglaboratory'
+version '1.0'
 
 sourceCompatibility = "9"
 targetCompatibility = "9"

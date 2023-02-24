@@ -1,4 +1,4 @@
-package io.github.kamilszewc.javaansitextcolorizer;
+package com.computinglaboratory.javaansitextcolorizer;
 
 /**
  * Class used to define mechanism of coloring text in terminal/console using ANSI characters
