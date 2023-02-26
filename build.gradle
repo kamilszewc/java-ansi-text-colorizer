@@ -77,12 +77,53 @@ publishing {
                 }
             }
         }
+
+//        relocation(MavenPublication) {
+//            from components.java
+//            pom {
+//                groupId = 'io.github.kamilszewc'
+//                artifactId = 'java-ansi-text-colorizer'
+//                version = '1.0'
+//
+//                name = 'Java ANSI text colorizer'
+//                description = 'Simple tool to print colored text to terminal/console'
+//                url = 'https://github.com/kamilszewc/java-ansi-text-colorizer'
+//                licenses {
+//                    license {
+//                        name = 'The Apache License, Version 2.0'
+//                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = 'kszewc'
+//                        name = "Kamil Szewc"
+//                        email = 'kamil.szewc@gmail.com'
+//                    }
+//                }
+//                scm {
+//                    connection = 'scm:git:git://github.com/kamilszewc/java-ansi-text-colorizer.git'
+//                    developerConnection = 'scm:git:https://github.com/kamilszewc/java-ansi-text-colorizer.git'
+//                    url = 'https://github.com/kamilszewc/java-ansi-text-colorizer.git'
+//                }
+//
+//                distributionManagement {
+//                    relocation {
+//                        groupId = 'com.computinglaboratory'
+//                        artifactId = 'java-ansi-text-colorizer'
+//                        version = '1.0'
+//                        message = 'Project moved to com.computinglaboratory:java-ansi-text-colorizer'
+//                    }
+//                }
+//            }
+//        }
     }
 }
 
 signing {
     sign publishing.publications.mavenJava
     sign configurations.archives
+    //sign publishing.publications.relocation
 }
 
 ossIndexAudit {
