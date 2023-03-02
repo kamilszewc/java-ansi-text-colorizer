@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Changed artifact group">
+    <list default="true" id="90307cf4-1b7c-47db-8a69-edc773464406" name="Changes" comment="Updated build.gradle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +224,12 @@
       <workItem from="1676210538040" duration="911000" />
       <workItem from="1677255896123" duration="4095000" />
       <workItem from="1677418725078" duration="973000" />
+      <workItem from="1677441931404" duration="592000" />
+      <workItem from="1677443146177" duration="615000" />
+      <workItem from="1677444785077" duration="1151000" />
+      <workItem from="1677485336074" duration="2000" />
+      <workItem from="1677490360600" duration="32000" />
+      <workItem from="1677787117905" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675974066274</created>
