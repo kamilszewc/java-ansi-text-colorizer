@@ -79,5 +79,4 @@ public class ColorizerTest {
     public void coloringWholeOutputBrightBackgroundTest() {
         System.out.println(Colorizer.color("The whole output background", Colorizer.BackgroundColor.RED));
     }
-
 }

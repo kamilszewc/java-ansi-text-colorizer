@@ -4,6 +4,11 @@
 Very simple Java library that modifies Strings in the way they are colored when printed to terminal.
 It uses ANSI codes to do the job.
 
+Tested with OSes:
+ - Linux - different distributions
+ - MacOS
+ - Windows 10 and 11 (in Windows 10 coloring is off)
+
 
 ## Installation
 
