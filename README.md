@@ -18,16 +18,16 @@ Usage with maven:
 
 ```xml
 <dependency>
-    <groupId>com.computinglaboratory</groupId>
+    <groupId>io.github.kamilszewc</groupId>
     <artifactId>java-ansi-text-colorizer</artifactId>
-    <version>1.0</version>
+    <version>1.4</version>
 </dependency>
 ```
 
 Usage with gradle:
 
 ```groovy
-implementation 'com.computinglaboratory:java-ansi-text-colorizer:0.6'
+implementation 'io.github.kamilszewc:java-ansi-text-colorizer:1.4'
 ```
 
 ## Usage
@@ -50,4 +50,4 @@ Currently, there are two static methods that can be used to color text or backgr
 ## License
 
 Apache License 2.0
-Copyright 2022 Kamil Szewc (Computing Laboratory)
+Copyright 2022 Kamil Szewc

@@ -1,3 +1,3 @@
-module com.computinglaboratory.javaansitextcolorizer {
-    exports com.computinglaboratory.javaansitextcolorizer;
+module io.github.kamilszewc.javaansitextcolorizer {
+    exports io.github.kamilszewc.javaansitextcolorizer;
 }

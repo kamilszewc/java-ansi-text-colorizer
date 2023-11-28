@@ -2,14 +2,16 @@ plugins {
     id 'java-library'
     id 'maven-publish' // To publish into github
     id 'signing' // Required by maven central
-    id 'org.sonatype.gradle.plugins.scan' version '2.5.5'
+    id 'org.sonatype.gradle.plugins.scan' version '2.6.1'
 }
 
-group 'com.computinglaboratory'
-version '1.2'
+group 'io.github.kamilszewc'
+version '1.4'
 
-sourceCompatibility = "9"
-targetCompatibility = "9"
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_9
+    targetCompatibility = JavaVersion.VERSION_1_9
+}
 
 repositories {
     mavenCentral()
