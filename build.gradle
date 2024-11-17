@@ -2,11 +2,11 @@ plugins {
     id 'java-library'
     id 'maven-publish' // To publish into github
     id 'signing' // Required by maven central
-    id 'org.sonatype.gradle.plugins.scan' version '2.7.0'
+    id 'org.sonatype.gradle.plugins.scan' version '2.8.3'
 }
 
 group 'io.github.kamilszewc'
-version '1.4'
+version '1.6'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_9
@@ -18,8 +18,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.3'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.11.3'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.11.3'
 }
 
 test {
@@ -82,7 +82,9 @@ publishing {
     }
 }
 
+
 signing {
+    useGpgCmd()
     sign publishing.publications.mavenJava
     sign configurations.archives
 }
